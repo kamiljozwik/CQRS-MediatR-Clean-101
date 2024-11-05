@@ -2,7 +2,7 @@ using MediatR;
 
 namespace ProductManagement.Application.Commands.UpdateProduct;
 
-public class UpdateProductCommand : IRequest
+public class UpdateProductCommand : IRequest<Unit>
 {
     public Guid Id { get; set; }  // Product ID to update
     public string Name { get; set; } = string.Empty;
