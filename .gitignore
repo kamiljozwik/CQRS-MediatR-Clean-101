@@ -1,0 +1,49 @@
+# Ignore build output folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+
+# Ignore application secrets
+appsettings.Development.json
+appsettings.Local.json
+
+# Rider and VS Code configuration files
+.idea/
+.vscode/
+
+# Logs and generated files
+*.log
+*.tlog
+*.ide.json
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+
+# Temporary files
+*.tmp
+*.temp
+*.pidb
+*.svclog
+*.pdb
+
+# Ignore compiled DLLs and executables
+*.dll
+*.exe
+
+# Ignore files generated during runtime
+*.db
+*.lock
+
+# Ignore generated migrations
+Migrations/*
+
+# Optional - Ignore coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
