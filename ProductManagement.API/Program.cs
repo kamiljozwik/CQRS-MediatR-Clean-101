@@ -14,7 +14,7 @@ builder.Services.SwaggerDocument(); //define a swagger document
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-app.UseAuthorization();
+// app.UseAuthorization();
 app.UseFastEndpoints();  // Use FastEndpoints middleware
 app.UseOpenApi();        // Serve OpenAPI/Swagger documents
 app.UseSwaggerGen();     // Serve Swagger UI
